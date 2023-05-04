@@ -8,5 +8,6 @@
   1. Install the required packages from the **enviroment.yml** using the command **conda env create -f environment.yml** , after that activate the enviroment.
   2. Change **"--data_dir"** to **"data/{movies/fever/multirc}"** and **"--conf"** to **"params/{movies,fever,multirc}_expred.json"** .
   3. Run the file **train.py** using **python train.py** .
-     
+  
+  
 Not that depending on your hardware you may have to change the `batch_size` in the config file. 
