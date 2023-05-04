@@ -101,8 +101,8 @@ def train_mtl_evidence_classifier(evidence_classifier: nn.Module,
     epoch_train_data = random.sample(evidence_train_data, k=len(evidence_train_data))
     total_steps=(len(epoch_train_data)//batch_size)*epochs
     
-    if scheduler is None:
-        scheduler = get_linear_schedule_with_warmup(optimizer,num_warmup_steps=int(0.5 * total_steps),num_training_steps=total_steps)
+    #if scheduler is None:
+        #scheduler = get_linear_schedule_with_warmup(optimizer,num_warmup_steps=int(0.5 * total_steps),num_training_steps=total_steps)
     logging.info(f'Training evidence classifier from epoch {start_epoch} until epoch {epochs}')
     #optimizer.zero_grad()
     for epoch in range(start_epoch, epochs):
@@ -135,7 +135,8 @@ def train_mtl_evidence_classifier(evidence_classifier: nn.Module,
             if max_grad_norm:
                 torch.nn.utils.clip_grad_norm_(evidence_classifier.parameters(), max_grad_norm)
             optimizer.step()
-            scheduler.step()
+            if scheduler:
+                scheduler.step()
             
         epoch_train_loss /= len(epoch_train_data)
         assert epoch_train_loss == epoch_train_loss  # for nans
