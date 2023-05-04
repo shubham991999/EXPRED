@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.13.0-41-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-07-20T08:09:43.747652",
+    "startedAt": "2022-07-20T08:09:42.121385",
+    "docker": null,
+    "gpu": "Tesla K40c",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "cpusrv-gpu-108",
+    "username": "21CS60R28",
+    "executable": "/home/mt1/21CS60R28/anaconda3/envs/mtp2/bin/python"
+}

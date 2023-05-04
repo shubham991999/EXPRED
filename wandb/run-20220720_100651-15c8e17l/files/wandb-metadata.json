@@ -1,0 +1,18 @@
+{
+    "os": "Linux-3.10.0-1160.62.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-07-20T04:36:56.260710",
+    "startedAt": "2022-07-20T04:36:51.875564",
+    "docker": null,
+    "gpu": "Tesla K40m",
+    "gpu_count": 1,
+    "cpu_count": 48,
+    "cuda": "10.2.89",
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "cpusrv-gpu-112",
+    "username": "21CS60R28",
+    "executable": "/home/mt1/21CS60R28/anaconda3/envs/mtp2/bin/python"
+}

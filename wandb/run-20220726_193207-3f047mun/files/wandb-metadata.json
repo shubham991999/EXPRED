@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-109-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-07-26T14:02:09.509564",
+    "startedAt": "2022-07-26T14:02:07.751653",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX TITAN X",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "gpusrv-xeon-109",
+    "username": "21CS60R28",
+    "executable": "/home/mt1/21CS60R28/anaconda3/envs/mtp2/bin/python"
+}

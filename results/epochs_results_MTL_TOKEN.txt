@@ -1,0 +1,13 @@
+INITIAL TIME for mtl token identifier classifier------ 2022-07-28 09:39:45.516689
+132273 MainThread Beginning training with 24029 annotations, 3214 for validation
+135417 MainThread Have 1329812 positive wordpiece tokens, 6674222 negative wordpiece tokens
+135813 MainThread Have 187277 positive wordpiece tokens, 886306 negative wordpiece tokens
+136651 MainThread Have 264229 positive wordpiece tokens, 1268151 negative wordpiece tokens
+136655 MainThread Training evidence identifier from epoch 0 until epoch 10
+137389 MainThread Training with 6007 batches with 24029 examples
+2638187 MainThread Epoch 0 training loss 14.827118420221122
+2888917 MainThread Epoch 0 new best model with val loss 16.944559589853625
+2895621 MainThread Training with 6007 batches with 24029 examples
+5592254 MainThread Epoch 1 training loss 11.064115105950682
+5843549 MainThread Epoch 1 new best model with val loss 17.855685342967917
+5850131 MainThread Training with 6007 batches with 24029 examples

@@ -1,0 +1,16 @@
+{
+    "os": "Linux-3.10.0-514.2.2.el7.x86_64-x86_64-with-centos-7.3.1611-Core",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-06-02T07:14:18.074494",
+    "startedAt": "2022-06-02T07:14:16.459671",
+    "docker": null,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "localhost.localdomain",
+    "username": "shubham",
+    "executable": "/home/shubham/anaconda3/envs/mtp/bin/python"
+}

@@ -1,0 +1,91 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.17
+    framework: huggingface
+    huggingface_version: 2.5.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.13
+    start_time: 1654154056
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 53
+      - 55
+      4: 3.7.13
+      5: 0.12.17
+      6: 2.5.1
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 10
+bert_dir:
+  desc: null
+  value: bert-base-uncased
+bert_vocab:
+  desc: null
+  value: bert-base-uncased
+classes:
+  desc: null
+  value:
+  - NEG
+  - POS
+conf:
+  desc: null
+  value: params/movies_expred.json
+data_dir:
+  desc: null
+  value: data/movies
+dim_cls_linear:
+  desc: null
+  value: 256
+dim_exp_gru:
+  desc: null
+  value: 128
+evidence_classifier:
+  desc: null
+  value:
+    batch_size: 10
+    epochs: 1
+    lr: 1.0e-05
+    patience: 3
+    use_half_precision: 0
+    warmup_steps: 50
+exp_structure:
+  desc: null
+  value: gru
+max_length:
+  desc: null
+  value: 512
+merge_evidences:
+  desc: null
+  value: 1
+mtl_token_identifier:
+  desc: null
+  value:
+    batch_size: 10
+    epochs: 1
+    lr: 1.0e-05
+    par_lambda: 5.0
+    patience: 3
+    sampling_method: whole_document
+    use_half_precision: 0
+    warmup_steps: 50
+output_dir:
+  desc: null
+  value: ./trained_data
+rebalance_approach:
+  desc: null
+  value: resampling
