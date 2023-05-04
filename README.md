@@ -5,8 +5,8 @@
 3. I just perform the experiments on this code using the different hyperparameters and reproduce the results.
 
 ## Usage:
-  1. Install the required packages from the 
-  2. The implementation entry is under ```expred/train```. To run the training, simply copy and paste the following commands:
-        ``` export PYTHONPATH=$PYTHONPATH:./ && python expred/train.py --data_dir /dir/to/your/datasets/{movies,fever,multirc} --output_dir /dir/to/your/trained_data --conf ./params/{movies,fever,multirc}_expred.json```
+  1. Install the required packages from the **enviroment.yml** using the command **conda env create -f environment.yml** , after that activate the enviroment.
+  2. Change **"--data_dir"** to **"data/{movies/fever/multirc}"** and **"--conf"** to **"params/{movies,fever,multirc}_expred.json"** .
+  3. Run the file **train.py** using **python train.py** .
      
 Not that depending on your hardware you may have to change the `batch_size` in the config file. 
