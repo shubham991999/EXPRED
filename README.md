@@ -10,4 +10,6 @@
   3. Run the file **train.py** using **python train.py** .
   
   
-Not that depending on your hardware you may have to change the `batch_size` in the config file. 
+**Note: **
+1. Depending on your hardware you may have to change the `batch_size` in the config file. 
+2. For _fever_ dataset , you have to use a **scheduler**. So, to use it uncomment line no **104** and **105** in **mtl_evidence_classifier.py** . 
